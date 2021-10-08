@@ -8,14 +8,42 @@
 <body>
 
   <form>
+    <h4>Basic HTML Radio Button</h4>
     <input type="radio" id="html" name="fav_language" value="HTML">
     <label for="html">HTML</label><br>
     <input type="radio" id="css" name="fav_language" value="CSS">
     <label for="css">CSS</label><br>
     <input type="radio" id="javascript" name="fav_language" value="JavaScript">
     <label for="javascript">JavaScript</label>
-
   </form>
+  
+  <h4>bootstrap data-toggle btn-group</h4>
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-primary active">
+      <input type="radio" name="options" id="option1" autocomplete="off" checked>A
+    </label>
+    <br/>
+    <label class="btn btn-primary">
+      <input type="radio" name="options" id="option2" autocomplete="off">B
+    </label>
+    <br/>
+    <label class="btn btn-primary">
+      <input type="radio" name="options" id="option3" autocomplete="off">C
+    </label>
+    <br/>
+    <label class="btn btn-primary">
+      <input type="radio" name="options" id="option4" autocomplete="off">D
+    </label>
+    <br/>
+    <label class="btn btn-primary">
+      <input type="radio" name="options" id="option5" autocomplete="off">E
+    </label>
+    <br/>
+    <label class="btn btn-primary">
+      <input type="radio" name="options" id="option6" autocomplete="off">F
+    </label>
+
+  </div>
 
 </body>
 <script src="js/scripts.js"></script>

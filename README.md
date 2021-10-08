@@ -4,6 +4,10 @@
 
 #### By _**John Blalock**_
 
+## Description
+
+__
+
 ## Technologies Used
 
 * _HTML_
@@ -12,10 +16,10 @@
 * _Java Script_
 * _jQuery_
 
-## Description
+## Setup/Installation
 
-__
-
+* _Download repo from github_
+* _Open the index.html file in your web browser_
 
 
 
