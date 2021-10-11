@@ -7,9 +7,14 @@
   color: white;
   margin-top: 10px;
   padding: 10px 30px;
-  
-
+  border-radius: 4px;
 }
+
 .container {
   background-color: whitesmoke;
+}
+
+.bottom {
+  color: lightslategray;
+  text-align: center;
 }
