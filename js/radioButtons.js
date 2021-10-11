@@ -1,13 +1,13 @@
 $(document).ready(function() {
   $('#radio-form').submit(function(event) {
     event.preventDefault();
-    const flavor = $("input:radio[name=flavor]:checked").val();
-    const color =$("input:radio[name=color]:checked").val();
-    const beatle =$("input:radio[name=beatle]:checked").val();
+    const q1 = $("input:radio[name=q1]:checked").val();
+    const q2 =$("input:radio[name=q2]:checked").val();
+    const q3 =$("input:radio[name=q3]:checked").val();
 
 
-    console.log(flavor);
-    console.log(color);
-    console.log(beatle);
+    console.log(q1);
+    console.log(q2);
+    console.log(q3);
   })
 })
