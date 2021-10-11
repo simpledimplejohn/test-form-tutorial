@@ -1,3 +1,15 @@
 #story {
   display: none;
 }
+
+.link-button {
+  background-color: lightpink;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 30px;
+  
+
+}
+.container {
+  background-color: whitesmoke;
+}
