@@ -1,3 +1,5 @@
+console.log("help!")
+
 $(document).ready(function() {
   $('#radio-form').submit(function(event) {
     event.preventDefault();
@@ -23,6 +25,6 @@ $(document).ready(function() {
     b = Math.round((b/8)*100)
     c = Math.round((c/8)*100)
     console.log(a, b, c)
-
+    $('answer-list').append(`<p> Your percentege of a's is % ${a}<p>`);
   })
 })
